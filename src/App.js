@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Code, Briefcase, GraduationCap, User, FileText } from 'lucide-react';
+import { Menu, X, Linkedin, Mail, Phone, MapPin, Code, Briefcase, GraduationCap, User, FileText } from 'lucide-react';
 
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
