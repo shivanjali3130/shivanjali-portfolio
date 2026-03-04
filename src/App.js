@@ -125,7 +125,7 @@ export default function Portfolio() {
                   <p className="text-gray-400 text-sm">B.E. Computer Engineering</p>
                   <p className="text-gray-400 text-sm">Genba Sopanrao Moze College of Engineering, Balewadi, Pune</p>
                   <p className="text-cyan-400 text-sm font-semibold">2023 – Present (Expected Graduation: 2027)</p>
-                  <p className="text-cyan-400 text-sm font-semibold">CGPA: 8.00 (Up to Semester 4)</p>
+                  <p className="text-cyan-400 text-sm font-semibold">CGPA: 8.33 (Up to Semester 5)</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -213,22 +213,52 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
+                title: 'Vrundavan Restaurant',
+                description: 'Full-featured restaurant landing page with interactive menu system, shopping cart with real-time calculations, user authentication modal, search functionality, and review section.',
+                tech: ['React.js', 'HTML5', 'CSS3', 'JavaScript'],
+                color: 'from-orange-600 to-red-600'
+              },
+              {
+                title: 'ChronoLux',
+                description: 'Precision stopwatch application featuring animated clock hands, circular progress ring animation, lap recording with timestamps, and futuristic UI with gradient effects and glow animations.',
+                tech: ['JavaScript', 'HTML5', 'CSS3'],
+                color: 'from-yellow-600 to-orange-600'
+              },
+              {
+                title: 'Nought & Crown',
+                description: 'Interactive Tic-Tac-Toe game with minimax-based AI opponent, dual-mode gameplay (Player vs Player and Player vs AI), win condition detection, and persistent score tracking.',
+                tech: ['JavaScript', 'HTML5', 'CSS3', 'Game AI'],
+                color: 'from-blue-600 to-cyan-600'
+              },
+              {
+                title: 'Weather Application',
+                description: 'React-based weather application using Vite build tool, featuring real-time data integration via WeatherAPI, geolocation support, city search functionality, and glassmorphism UI with Tailwind CSS.',
+                tech: ['React.js', 'Vite', 'Tailwind CSS', 'WeatherAPI', 'Lucide React'],
+                color: 'from-cyan-600 to-blue-600'
+              },
+              {
+                title: 'Personal Portfolio',
+                description: 'Modern portfolio website with smooth scroll navigation, intersection observer animations, parallax effects on floating elements, animated statistics counters, and contact form with validation.',
+                tech: ['HTML5', 'CSS3', 'JavaScript'],
+                color: 'from-purple-600 to-pink-600'
+              },
+              {
                 title: 'Samrath Enterprises',
                 description: 'Professional business website for a service-based organization. Features an enquiry form with secure database storage via SMTP/POP3 protocols.',
-                tech: ['React.js', 'Node.js', 'MongoDB Atlas', 'HTML', 'CSS', 'JavaScript', 'SMTP/POP3'],
-                color: 'from-blue-600 to-cyan-600'
+                tech: ['React.js', 'Node.js', 'MongoDB Atlas', 'HTML', 'CSS', 'JavaScript'],
+                color: 'from-green-600 to-emerald-600'
               },
               {
                 title: 'FOODHUB',
                 description: 'Fully responsive restaurant website with dynamic product cards, interactive menu with add-to-cart functionality, quantity selectors, and fixed sticky header navigation.',
                 tech: ['HTML5', 'CSS3', 'JavaScript'],
-                color: 'from-orange-600 to-red-600'
+                color: 'from-orange-600 to-amber-600'
               },
               {
                 title: 'TaskFlow',
                 description: 'Full-featured task management app with local storage integration, filter functionality, CRUD operations, real-time statistics dashboard, and notification system.',
                 tech: ['HTML', 'CSS', 'JavaScript'],
-                color: 'from-green-600 to-emerald-600'
+                color: 'from-teal-600 to-green-600'
               },
               {
                 title: 'Cosmic Explorer',
@@ -240,7 +270,7 @@ export default function Portfolio() {
                 title: 'Velour Brew House',
                 description: 'Premium coffee shop website featuring smooth scroll navigation, intersection observer animations, menu selection, order form with validation, and responsive design.',
                 tech: ['HTML5', 'CSS3', 'JavaScript'],
-                color: 'from-amber-600 to-orange-600'
+                color: 'from-amber-700 to-orange-700'
               },
               {
                 title: 'Interactive JavaScript Quiz',
@@ -304,9 +334,23 @@ export default function Portfolio() {
           <div className="space-y-8">
             {[
               {
+                title: 'Web Development Intern',
+                company: 'Prodigy InfoTech',
+                period: 'January 2026 – February 2026',
+                location: 'Remote',
+                highlights: [
+                  'Developed full-featured restaurant landing page (Vrundavan Restaurant) with interactive menu, shopping cart, user authentication modal, and search functionality',
+                  'Created precision stopwatch application (ChronoLux) with animated clock hands, lap recording system, and futuristic UI with gradient effects',
+                  'Built interactive Tic-Tac-Toe game (Nought & Crown) with minimax-based AI opponent and dual-mode gameplay',
+                  'Designed modern personal portfolio website with smooth scroll navigation, parallax effects, and animated statistics counters',
+                  'Developed React-based weather application using Vite with WeatherAPI integration, geolocation support, and glassmorphism UI',
+                  'Demonstrated proficiency in vanilla JavaScript, React.js, Vite, API integration, DOM manipulation, and advanced CSS techniques'
+                ]
+              },
+              {
                 title: 'Front-End Development Intern',
                 company: 'SaiKet Systems',
-                period: 'December 2025 – Present',
+                period: 'December 2025 – January 2026',
                 location: 'Remote',
                 highlights: [
                   'Developed semantic HTML blog page (Twist Blog) with proper HTML5 structure',
