@@ -115,9 +115,7 @@ export default function Portfolio() {
           </h2>
                       <div className="bg-slate-800/80 backdrop-blur-sm rounded-2xl p-8 border border-slate-700/50">
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Motivated and detail-oriented Computer Engineering student (T.E.) with a passion for creating 
-              user-focused digital solutions. I specialize in full-stack web development using the MERN stack 
-              and have hands-on experience building real-world applications.
+              Motivated and detail-oriented Computer Engineering student (T.E.) seeking internship opportunities in Web Development. I specialize in building user-focused digital solutions with expertise in the MERN stack and modern web technologies. I've completed multiple internships developing responsive websites, interactive applications, and dynamic web platforms with real-world impact.
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex items-start space-x-3">
@@ -125,15 +123,16 @@ export default function Portfolio() {
                 <div>
                   <h3 className="text-white font-semibold mb-1">Education</h3>
                   <p className="text-gray-400 text-sm">B.E. Computer Engineering</p>
-                  <p className="text-gray-400 text-sm">Genba Sopanrao Moze College of Engineering</p>
-                  <p className="text-cyan-400 text-sm font-semibold">CGPA: 8.00</p>
+                  <p className="text-gray-400 text-sm">Genba Sopanrao Moze College of Engineering, Balewadi, Pune</p>
+                  <p className="text-cyan-400 text-sm font-semibold">2023 – Present (Expected Graduation: 2027)</p>
+                  <p className="text-cyan-400 text-sm font-semibold">CGPA: 8.00 (Up to Semester 4)</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="text-cyan-400 mt-1" size={24} />
                 <div>
                   <h3 className="text-white font-semibold mb-1">Location</h3>
-                  <p className="text-gray-400 text-sm">Pune, Maharashtra</p>
+                  <p className="text-gray-400 text-sm">Pune, Maharashtra, India</p>
                   <p className="text-gray-400 text-sm">Available for Remote & On-site Work</p>
                 </div>
               </div>
@@ -153,28 +152,28 @@ export default function Portfolio() {
             {[
               {
                 title: 'Frontend',
-                skills: ['HTML', 'CSS', 'JavaScript', 'React.js'],
+                skills: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Responsive Design'],
                 icon: '🎨'
               },
               {
                 title: 'Backend',
-                skills: ['Node.js', 'MongoDB', 'MongoDB Atlas', 'REST APIs'],
+                skills: ['Node.js', 'MongoDB', 'MongoDB Atlas', 'REST APIs', 'SMTP', 'POP3'],
                 icon: '⚙️'
               },
               {
                 title: 'Languages',
-                skills: ['C', 'C++', 'Python', 'JavaScript'],
+                skills: ['C', 'C++', 'Python', 'JavaScript', 'PHP (Basics)'],
                 icon: '💻'
               },
               {
-                title: 'Tools',
-                skills: ['Visual Studio Code', 'Git', 'npm'],
+                title: 'Tools & Software',
+                skills: ['Visual Studio Code', 'Git', 'npm', 'VS Code'],
                 icon: '🛠️'
               },
               {
-                title: 'Protocols',
-                skills: ['SMTP', 'POP3', 'HTTP/HTTPS'],
-                icon: '🌐'
+                title: 'Advanced CSS',
+                skills: ['Gradients', 'Animations', 'Flexbox', 'Grid', 'Custom Scrollbars'],
+                icon: '✨'
               },
               {
                 title: 'Soft Skills',
@@ -215,21 +214,57 @@ export default function Portfolio() {
             {[
               {
                 title: 'Samrath Enterprises',
-                description: 'Professional business website for a service-based organization providing labour security, housekeeping, and gardening services. Features an enquiry form with secure database storage.',
-                tech: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'MongoDB Atlas', 'SMTP', 'POP3'],
+                description: 'Professional business website for a service-based organization. Features an enquiry form with secure database storage via SMTP/POP3 protocols.',
+                tech: ['React.js', 'Node.js', 'MongoDB Atlas', 'HTML', 'CSS', 'JavaScript', 'SMTP/POP3'],
                 color: 'from-blue-600 to-cyan-600'
+              },
+              {
+                title: 'FOODHUB',
+                description: 'Fully responsive restaurant website with dynamic product cards, interactive menu with add-to-cart functionality, quantity selectors, and fixed sticky header navigation.',
+                tech: ['HTML5', 'CSS3', 'JavaScript'],
+                color: 'from-orange-600 to-red-600'
+              },
+              {
+                title: 'TaskFlow',
+                description: 'Full-featured task management app with local storage integration, filter functionality, CRUD operations, real-time statistics dashboard, and notification system.',
+                tech: ['HTML', 'CSS', 'JavaScript'],
+                color: 'from-green-600 to-emerald-600'
+              },
+              {
+                title: 'Cosmic Explorer',
+                description: 'Educational space exploration website with grid-based layouts, lesson tracking system, sidebar navigation, and custom animations for enhanced user engagement.',
+                tech: ['HTML5', 'CSS3', 'JavaScript', 'Grid Layout'],
+                color: 'from-indigo-600 to-purple-600'
+              },
+              {
+                title: 'Velour Brew House',
+                description: 'Premium coffee shop website featuring smooth scroll navigation, intersection observer animations, menu selection, order form with validation, and responsive design.',
+                tech: ['HTML5', 'CSS3', 'JavaScript'],
+                color: 'from-amber-600 to-orange-600'
+              },
+              {
+                title: 'Interactive JavaScript Quiz',
+                description: 'Dynamic quiz application with dynamic question loading, progress tracking, score calculation, result display with performance feedback, and animated UI elements.',
+                tech: ['HTML5', 'CSS3', 'JavaScript'],
+                color: 'from-rose-600 to-pink-600'
+              },
+              {
+                title: 'Twist Blog',
+                description: 'Semantic HTML blog page utilizing proper HTML5 structure with header, main, article, section, figure, and footer elements for accessibility.',
+                tech: ['HTML5', 'CSS3', 'Semantic HTML'],
+                color: 'from-cyan-600 to-blue-600'
+              },
+              {
+                title: 'Owl AI',
+                description: 'AI-themed landing page with interactive form elements, gradient backgrounds, responsive design, and modern UI with Font Awesome icons.',
+                tech: ['HTML5', 'CSS3', 'JavaScript', 'Font Awesome'],
+                color: 'from-purple-600 to-violet-600'
               },
               {
                 title: 'Movie Review Website',
                 description: 'Dynamic platform allowing users to post and read movie reviews with user ratings and interactive comment sections for feedback.',
                 tech: ['JavaScript', 'Node.js', 'MongoDB', 'HTML', 'CSS'],
-                color: 'from-purple-600 to-pink-600'
-              },
-              {
-                title: 'Restaurant Website',
-                description: 'Responsive restaurant website showcasing menu items and details with contact and enquiry functionality for customer interaction.',
-                tech: ['HTML', 'CSS', 'JavaScript'],
-                color: 'from-orange-600 to-red-600'
+                color: 'from-pink-600 to-rose-600'
               }
             ].map((project, idx) => (
               <div
@@ -266,34 +301,73 @@ export default function Portfolio() {
             <Briefcase className="mr-4 text-purple-400" size={40} />
             Experience
           </h2>
-          <div className="bg-slate-800/80 backdrop-blur-sm rounded-2xl p-8 border border-slate-700/50">
-            <div className="flex items-start space-x-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                <Code className="text-white" size={24} />
+          <div className="space-y-8">
+            {[
+              {
+                title: 'Front-End Development Intern',
+                company: 'SaiKet Systems',
+                period: 'December 2025 – Present',
+                location: 'Remote',
+                highlights: [
+                  'Developed semantic HTML blog page (Twist Blog) with proper HTML5 structure',
+                  'Created responsive restaurant website (FOODHUB) with interactive product cards and add-to-cart functionality',
+                  'Built educational space exploration website (Cosmic Explorer) with grid layouts and lesson tracking',
+                  'Designed interactive JavaScript quiz application with dynamic question loading and performance feedback',
+                  'Created full-featured task management app (TaskFlow) with local storage and CRUD operations',
+                  'Developed premium coffee shop website (Velour Brew House) with smooth animations and form validation',
+                  'Implemented advanced CSS techniques including gradients, animations, and modern UI patterns'
+                ]
+              },
+              {
+                title: 'Web Development Intern',
+                company: 'CodSoft',
+                period: 'December 2025 – January 2026',
+                location: 'Remote',
+                highlights: [
+                  'Developed responsive portfolio website with sticky navigation and professional styling',
+                  'Created TechFlow landing page with gradient backgrounds and animated hero section',
+                  'Built fully functional calculator web application with responsive design and keyboard support',
+                  'Demonstrated proficiency in HTML5, CSS3, JavaScript, and modern UI/UX principles'
+                ]
+              },
+              {
+                title: 'Front End Developer Intern',
+                company: 'Overload Ware Labs AI',
+                period: 'October 2025',
+                location: 'Remote',
+                highlights: [
+                  'Designed and developed AI-themed landing page (Owl AI) with interactive form elements',
+                  'Implemented gradient backgrounds and responsive design using HTML, CSS, and Font Awesome icons',
+                  'Created engaging user interfaces with advanced CSS techniques (gradients, shadows, transitions)',
+                  'Developed fixed header navigation with logo branding and consistent brand identity',
+                  'Built responsive layouts using flexbox for optimal display across devices'
+                ]
+              }
+            ].map((exp, idx) => (
+              <div key={idx} className="bg-slate-800/80 backdrop-blur-sm rounded-2xl p-8 border border-slate-700/50">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Briefcase className="text-white" size={24} />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-white mb-1">
+                      {exp.title}
+                    </h3>
+                    <p className="text-cyan-400 font-semibold mb-1">
+                      {exp.company} | {exp.period} | {exp.location}
+                    </p>
+                    <ul className="space-y-2 mt-4">
+                      {exp.highlights.map((highlight, i) => (
+                        <li key={i} className="flex items-start space-x-2">
+                          <span className="text-cyan-400 mt-1">•</span>
+                          <span className="text-gray-300 text-sm">{highlight}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div className="flex-1">
-                <h3 className="text-2xl font-bold text-white mb-2">
-                  Front End Developer Intern
-                </h3>
-                <p className="text-cyan-400 font-semibold mb-4">
-                  Overload Ware Labs AI | October 2025 | Remote
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start space-x-2">
-                    <span className="text-cyan-400 mt-1">•</span>
-                    <span className="text-gray-300">Worked on AI-driven frontend development projects.</span>
-                  </li>
-                  <li className="flex items-start space-x-2">
-                    <span className="text-purple-400 mt-1">•</span>
-                    <span className="text-gray-300">Strengthened understanding of web development concepts and UI implementation.</span>
-                  </li>
-                  <li className="flex items-start space-x-2">
-                    <span className="text-purple-400 mt-1">•</span>
-                    <span className="text-gray-300">Gained hands-on experience with real-world project collaboration and remote teamwork.</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
